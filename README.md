@@ -1,6 +1,7 @@
 # ts-expect-errors
 
-
+> [!WARNING]
+> This tool is not ready for use.
 
 Tool to quickly migrate an existing JavaScript / TypeScript project.
 

@@ -17,10 +17,13 @@
   "author": "kranners",
   "license": "GPL-3.0-or-later",
   "description": "",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.13.11",
+    "@types/node": "^22.13.13",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
@@ -28,7 +31,6 @@
     "jiti": "^2.4.2",
     "ts-jest": "^29.2.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2",
     "typescript-eslint": "^8.27.0"
   }
 }
