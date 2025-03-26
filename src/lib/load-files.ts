@@ -1,3 +1,4 @@
+import { join } from "path";
 import { readdirSync } from "fs";
 
 // TODO: Make this also configurable
@@ -23,6 +24,7 @@ export const getSourceFiles = (sourceDirectoryPath: string): string[] => {
   const files = readdirSync(sourceDirectoryPath, { recursive: true });
   return files
     .map((file) => file.toString())
+    .map((file) => join(sourceDirectoryPath, file))
     .filter(withoutExcludedFilepath)
     .filter(endsWithSourceFileExtension);
 };
